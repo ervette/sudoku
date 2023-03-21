@@ -1,0 +1,19 @@
+[package]
+name = "rudoku-game"
+version = "0.1.3"
+authors = ["Talalaiko Kiril <40618094@live.napier.ac.uk>"]
+edition = "2021"
+description = "The Sudoku game."
+
+[dependencies]
+rudoku-core = { version = "0.2", git = "https://vcs.p-sft.de/oliver.hanikel/rudoku-core.git" }
+crossterm = "0.18"
+box_drawing = "0.1.2"
+rand = "0.8"
+
+[profile.release]
+lto = true          # Enable Link Time Optimization
+
+[target.x86_64-pc-windows-gnu]
+linker = "/usr/bin/x86_64-w64-mingw32-gcc"
+ar = "/usr/x86_64-w64-mingw32/bin/ar"
