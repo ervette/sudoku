@@ -1,12 +1,12 @@
 [package]
-name = "rudoku-game"
+name = "sudoku-game"
 version = "0.1.3"
 authors = ["Talalaiko Kiril <40618094@live.napier.ac.uk>"]
 edition = "2021"
 description = "The Sudoku game."
 
 [dependencies]
-rudoku-core = { version = "0.2", git = "https://vcs.p-sft.de/oliver.hanikel/rudoku-core.git" }
+rudoku-core = { version = "0.2", git = "https://github.com/ervette/sudoku-core.git" }
 crossterm = "0.18"
 box_drawing = "0.1.2"
 rand = "0.8"
