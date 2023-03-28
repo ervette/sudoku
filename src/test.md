@@ -1,0 +1,1 @@
+| AGA | GQAG |GAGA|GAGA|
