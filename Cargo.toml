@@ -1,0 +1,19 @@
+[package]
+name = "sudoku-game"
+version = "0.1.3"
+authors = ["Talalaiko Kiril <40618094@live.napier.ac.uk>"]
+edition = "2021"
+description = "The Sudoku game."
+
+[dependencies]
+crossterm = "0.18"
+box_drawing = "0.1.2"
+rand = "0.8.4"
+itertools = "0.10"
+
+[profile.release]
+lto = true          # Enable Link Time Optimization
+
+[target.x86_64-pc-windows-gnu]
+linker = "/usr/bin/x86_64-w64-mingw32-gcc"
+ar = "/usr/x86_64-w64-mingw32/bin/ar"
