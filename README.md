@@ -1,11 +1,11 @@
 # Sudoku Game
-Sudoku game written in Rust by Talalaiko Kiril <40618094@live.napier.ac.uk>.
+Sudoku game written in Rust by Talalaiko Kiril <40618094@live.napier.ac.uk> for Algorithms and Data Structures module in ENU.
 
 ## How to use
 
 To play this game follow the instruction:
 
-1. Download rust and cargo
+**1. Download rust and cargo**
 
     For Windows:
 
@@ -33,9 +33,11 @@ To play this game follow the instruction:
       * Once downloaded, double-click on the installer file and follow the prompts to complete the installation process.
       * Once installed, open a terminal and type "rustc --version" to verify that Rust is installed correctly.
 
-2. Use console to type 'git clone https://github.com/ervette/sudoku.git' to download the game
-3. Use console to type 'cd sudoku' to enter the game directory
-4. Use console to type 'cargo build; cargo run;' To build and run the application
+**2. Use console to type 'git clone https://github.com/ervette/sudoku.git' to download the game**
+
+**3. Use console to type 'cd sudoku' to enter the game directory**
+
+**4. Use console to type 'cargo build; cargo run;' To build and run the application**
   
 
 ## License
