@@ -12,19 +12,19 @@ pub fn read_key_code() -> Result<event::KeyCode> {
 }
 
 pub fn is_up(kc: event::KeyCode) -> bool {
-    kc == event::KeyCode::Up || kc == event::KeyCode::Char('w') || kc == event::KeyCode::Char('k')
+    kc == event::KeyCode::Up || kc == event::KeyCode::Char('w')
 }
 
 pub fn is_left(kc: event::KeyCode) -> bool {
-    kc == event::KeyCode::Left || kc == event::KeyCode::Char('a') || kc == event::KeyCode::Char('h')
+    kc == event::KeyCode::Left || kc == event::KeyCode::Char('a')
 }
 
 pub fn is_down(kc: event::KeyCode) -> bool {
-    kc == event::KeyCode::Down || kc == event::KeyCode::Char('s') || kc == event::KeyCode::Char('j')
+    kc == event::KeyCode::Down || kc == event::KeyCode::Char('s')
 }
 
 pub fn is_right(kc: event::KeyCode) -> bool {
-    kc == event::KeyCode::Right || kc == event::KeyCode::Char('d') || kc == event::KeyCode::Char('l')
+    kc == event::KeyCode::Right || kc == event::KeyCode::Char('d')
 }
 
 pub fn key_code_to_sudoku_value(kc: event::KeyCode) -> Option<SudokuValue> {
