@@ -22,10 +22,10 @@ const MENU: &str = r#"
                     <40618094>
                     
                       q : quit
-             up / w : up
-           left / a : left
-           down / s : down
-          right / d : right
+                 up / w : up
+               left / a : left
+               down / s : down
+              right / d : right
                     0-9 : 0-9
                       c : check
                       t : tip
