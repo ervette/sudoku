@@ -33,7 +33,7 @@ To play this game follow the instruction:
       * Once downloaded, double-click on the installer file and follow the prompts to complete the installation process.
       * Once installed, open a terminal and type "rustc --version" to verify that Rust is installed correctly.
 
-**2. Use console to type 'git clone https://github.com/ervette/sudoku.git' to download the game**
+**2. Use console to type 'git clone https://github.com/ervette/sudoku.git' to download the game if you dont have git, please just download the archive using GitHub**
 
 **3. Use console to type 'cd sudoku' to enter the game directory**
 
